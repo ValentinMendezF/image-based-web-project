@@ -12,11 +12,14 @@ main{
 
 .texto-centrado{
     text-align: center;
+    
 }
 
 img{
     width: 40px;
     height: 40px;
+    border-radius: 1px;
+    border: solid royalblue;
 }
 
 table{
@@ -29,11 +32,28 @@ table{
 
 #services{
     color: royalblue;
-    font-size: 23px;
+    font-size: 21px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 #what-do-we-offer{
     color: midnightblue;
-    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-family: "Lalezar", system-ui;
+    font-style: normal;
+    font-weight: 20;
+    font-size: 50px;
+}
+
+p{
+    color: rgb(59, 56, 56);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.espacio-entre-lineas{
+    line-height: 10px;
+}
+h3{
+    color: midnightblue;
+    font-family: Arial, Helvetica, sans-serif;
 }
