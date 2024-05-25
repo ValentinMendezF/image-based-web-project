@@ -7,7 +7,8 @@ main{
     margin: 400px 150px 250px 150px;
     padding: 100px;
     background-color:white;
-    border-style: round;
+    border-radius: 25px;
+    
 }
 
 .texto-centrado{
@@ -16,12 +17,10 @@ main{
 }
 
 img{
-    fill: white;
-    width: 40px;
-    height: 40px;
+    width: 42px;
+    height: 42px;
     border-radius: 20px;
     background-color: royalblue;
-
 }
 
 table{
@@ -52,9 +51,11 @@ p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
 }
+
 .espacio-entre-lineas{
     line-height: 10px;
 }
+
 h3{
     color: midnightblue;
     font-family: Arial, Helvetica, sans-serif;
